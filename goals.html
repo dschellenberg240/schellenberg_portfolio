@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+   <title>Daniel Schellenberg's Career Goals</title>
+ </head>
+
+ <body>
+    <header>
+        <h1>Daniel Schellenberg</h1>
+        <h3>Web Developer & IT Leader</h3>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="coverletter.html">Cover Letter</a></li>
+            <li><a href="goals.html">Career Goals</a></li>
+        </ul>
+    </nav>
+   <header>
+      <p>My goal is to transition into a career in web development, starting with a focus on front-end technologies. I aim to achieve a junior-level proficiency in HTML, CSS, and JavaScript within 6 months to a year. Following this, I will seek an entry-level position as a front-end developer within one year. My long-term objective is to grow into a full-stack developer role within five years, expanding my skills to include back-end development.</p>
+   </header>
+
+<main class="content-wrapper">
+   <section class="goals-section">
+      <div class="goal-item"><strong>Goal 1</strong><br><p>To become junior level in <b>HTML & CSS</b> within 6 months to a year</p></div>
+      <div class="goal-item"><strong>Goal 2</strong><br><p>To become junior level in <b>JavaScript</b> within 6 months to a year</p></div>
+      <div class="goal-item"><strong>Goal 3</strong><br><p>To become junior level <b>Front-End Developer</b> 1 to 2 years</p></div>
+   </section>
+
+   <section class="paragraph-section">
+      <p>My short term goals are along the path during school. I have a graduation goal of finishing within 6 months to a year. My other short term goals follow that, becoming junior level proficient in front-end development. My long term goal for the next 2 years is to gain a junior level position in front-end development. At the same time I will be working twards by 5 year goal of gaining employment as a full-stack developer.</p>
+   </section>
+</main>
+
+         <!-- Forms and Multimedia -->
+   <header>
+      <h1>Conact Me</h1>
+   </header>
+   <hr>
+   <section>
+      <h3 class="sectionHeader">Forms</h3>
+
+      <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+         <div class="form-container">
+            <!-- left side -->
+            <div class="form-column">
+               <label for="firstName"></label>
+               <input type="text" name="firstName" id="firstName" placeholder="First Name">
+               <label for="lastName"></label>
+               <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+               <label for="myEmail"></label>
+               <input type="email" name="myEmail" id="myEmail" placeholder="Email">
+               <label for="myPW"></label>
+               <input type="password" name="myPW" id="myPW" placeholder="Password">
+               <label for="birthDate">Birth Day:</label>
+               <input type="date" name="birthDate" id="birthDate">
+               <fieldset>
+                  <legend>Best Contact Time</legend>
+                  <input type="radio" name="contactTime" id="contactTimeAny" value="any" checked><label for="contactTimeAny">Anytime</label><br>
+                  
+                  <input type="radio" name="contactTime" id="contactTimeAM" value="am"><label for="contactTimeAM">A.M.</label><br>
+                  
+                  <input type="radio" name="contactTime" id="contactTimePM" value="pm"><label for="contactTimePM">P.M.</label><br>
+
+                  <input type="radio" name="contactTime" id="contactTimeSpecific" value="any"><label for="contactTimeSpecific">Specific Time</label>
+
+                  <input type="time" name="myContactTime" id="myContactTime">
+               </fieldset>
+            </div>
+
+            <!-- right side -->
+            <div class="form-column">
+               <fieldset>
+                  <legend>Form of Contact</legend>
+                  <input type="checkbox" name="demoCheckbox" id="demoCB1" value="1"><label for="demoCB1">Phone</label>
+
+                  <input type="checkbox" name="demoCheckbox" id="demoCB2" value="2"><label for="demoCB2">Email</label>
+
+                  <input type="checkbox" name="demoCheckbox" id="demoCB3" value="3"><label for="demoCB3">Text</Textarea></label>
+               </fieldset>
+               <select name="mySelect" id="mySelect" multiple size="3">
+                  <option value="1">Lorem, ipsum dolor.</option>
+                  <option value="2">Reiciendis, ducimus accusamus.</option>
+                  <option value="3">Laborum, fugit voluptatum?</option>
+                  <option value="4">Quae, ullam eligendi.</option>
+                  <option value="5">Pariatur, distinctio esse.</option>
+                  <option value="6">Provident, nobis. Consectetur.</option>
+                  <option value="7">Quibusdam, voluptatem quisquam!</option>
+               </select>
+               <textarea name="myTA" id="myTA" cols="20" rows="4"></textarea>
+               <input type="file" name="myFile" id="myFile">
+            </div>
+         </div>
+            <div class="form-buttons">
+               <input type="reset" name="resetBtn" id="resetBtn" value="Reset Form">
+               <input type="submit" name="submitBtn" id="submitBtn" value="Submit Form">
+            </div>
+      </form>
+   </section>
+   <hr>
+   <section>
+      <h3 class="sectionHeader">The Fun Zone - Multimedia</h3>
+   <div class="mediaContainer">
+
+      <img id="mediaImg" src="images/funny_sticky_note.png" alt="profile picture" height="300px">
+
+      <audio id="mediaAud" controls> 
+         <source src="media/countdown_audio.mp3" type="audio/mpeg">
+         Time to update your browser! Audio element in use.
+      </audio>
+      <video id="mediaVid" src="media/chill_video.mp4" controls></video>
+   </div>
+   </section>
+ </body>
+ 
+<footer>
+	<p>&copy; 2025 Daniel Schellenberg</p>
+	<div id="current-date"></div>
+</footer>
+<script src="js/scripts.js"></script>
+
+ </html>
