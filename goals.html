@@ -20,8 +20,10 @@
             <li><a href="coverletter.html">Cover Letter</a></li>
             <li><a href="goals.html">Career Goals</a></li>
         </ul>
+
+
     </nav>
-   <header>
+   <header id="gheader">
       <p>My goal is to transition into a career in web development, starting with a focus on front-end technologies. I aim to achieve a junior-level proficiency in HTML, CSS, and JavaScript within 6 months to a year. Following this, I will seek an entry-level position as a front-end developer within one year. My long-term objective is to grow into a full-stack developer role within five years, expanding my skills to include back-end development.</p>
    </header>
 
@@ -50,15 +52,15 @@
             <!-- left side -->
             <div class="form-column">
                <label for="firstName"></label>
-               <input type="text" name="firstName" id="firstName" placeholder="First Name">
+               <input type="text" name="firstName" id="firstName" placeholder="First Name*" required>
                <label for="lastName"></label>
                <input type="text" name="lastName" id="lastName" placeholder="Last Name">
                <label for="myEmail"></label>
                <input type="email" name="myEmail" id="myEmail" placeholder="Email">
-               <label for="myPW"></label>
-               <input type="password" name="myPW" id="myPW" placeholder="Password">
-               <label for="birthDate">Birth Day:</label>
-               <input type="date" name="birthDate" id="birthDate">
+               <input type="text" name="company" id="company" placeholder="Company Name">
+               <label for="Phone"></label>
+               <input type="tel" name="phone" id="phone" placeholder="phone*" required>
+               <label for="company"></label>
                <fieldset>
                   <legend>Best Contact Time</legend>
                   <input type="radio" name="contactTime" id="contactTimeAny" value="any" checked><label for="contactTimeAny">Anytime</label><br>
@@ -81,7 +83,7 @@
 
                   <input type="checkbox" name="demoCheckbox" id="demoCB2" value="2"><label for="demoCB2">Email</label>
 
-                  <input type="checkbox" name="demoCheckbox" id="demoCB3" value="3"><label for="demoCB3">Text</Textarea></label>
+                  <input type="checkbox" name="demoCheckbox" id="demoCB3" value="3"><label for="demoCB3">Text</label>
                </fieldset>
                <select name="mySelect" id="mySelect" multiple size="3">
                   <option value="1">Lorem, ipsum dolor.</option>
